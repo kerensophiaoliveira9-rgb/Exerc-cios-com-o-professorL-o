@@ -1,0 +1,37 @@
+body{
+    background-repeat: repeat-y;
+    background-color: bisque;
+    background-image: url(../Ex1/imagensa/imagem.png)        
+}
+h1{
+margin-left: 160px;
+color: rgb(199, 109, 25);
+font-size: 70px;
+}
+p{
+margin-left: 160px;
+font-size: 25px;
+font-family: 'Courier New', Courier, monospace;
+text-indent: 30px;
+}
+hr{
+    margin-left: 160px;
+    border: 3px dashed rgb(255, 156, 43)
+}
+br{
+    margin: 160px;
+}
+
+h2{
+    margin-top: -50px;
+    margin-left: 160px;
+color: rgb(199, 109, 25);
+font-size: 70px;
+}
+.Texto{
+    font-size: 25px;
+    background-color: rgb(255, 152, 56);
+    color: whitesmoke;
+    margin-left: 160px;
+    
+}

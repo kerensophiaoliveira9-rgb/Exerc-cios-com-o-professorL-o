@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Inicial</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="#">Início</a></li>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#">Serviços</a></li>
+            <li><a href="#">Contato</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h1>Bem-vindo à nossa página</h1>
+        <div class="banner">
+            <img id="bannerImage" src="banner1.jpg" alt="Banner">
+        </div>
+    </div>
+
+    <script>
+        let banners = ["banner1.jpg", "banner2.jpg", "banner3.jpg"];
+        let current = 0;
+        function rotateBanner() {
+            current = (current + 900) % banners.length;
+            document.getElementById("bannerImage").src = banners[current];
+        }
+        setInterval(rotateBanner, 90.);
+    </script>
+
+</body>
+
+</html>

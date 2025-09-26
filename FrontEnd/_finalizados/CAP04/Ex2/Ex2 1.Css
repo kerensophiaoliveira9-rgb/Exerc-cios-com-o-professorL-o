@@ -1,0 +1,20 @@
+body{
+    background-color: rgba(255, 228, 196, 0.4);
+}
+h1{
+    color: brown;
+}
+h2{
+    background-color: brown;
+    color: whitesmoke;
+}
+img{
+    border: solid;
+    padding: 10px;
+    color: brown;
+}
+p{
+    margin-left: 10px;
+    font-size: 24px;
+    font-family:'Times New Roman', Times, serif;
+}

@@ -1,0 +1,47 @@
+h2{
+    background-color: rgba(169, 169, 169, 0.452);
+}
+hr{
+    height: 5px;
+    background-color: rgba(20, 137, 158, 0.753);
+    border: none;
+}
+body{
+    background-color: rgba(255, 235, 208, 0.726);
+}
+
+img:hover{
+    border: #ffa700 solid thick;
+}
+p{
+    font-weight: bolder;
+    color: rgba(7, 85, 145, 0.877)
+}
+
+p a:hover{
+    color: #ffa700
+}
+
+p a:link{
+    text-decoration: none;
+    color: #004552;
+}
+
+p a:visited{
+    color: #d7e1ffe1;
+}
+
+a{
+text-decoration: none;
+color: rgb(12, 74, 121);
+}
+
+a:first-of-type img:hover{
+    border: #ffa700 solid thick;
+    border-radius:  24px 0 0 24px;
+}
+
+a:last-of-type img:hover{
+    border: #ffa700 solid thick;
+    border-radius:  0 24px 24px 0;
+}

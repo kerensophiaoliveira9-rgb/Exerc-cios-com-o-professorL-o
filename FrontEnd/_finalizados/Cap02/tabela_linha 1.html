@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela em Linha</title>
+</head>
+
+<body>
+    <h1>Tabela em linha</h1>
+
+    <table border="1">
+        <caption>Editora Senac</caption>
+        <tr>
+            <th>Livro</th>
+            <td>Excel 2013</td>
+            <td>HTML 5 / CSS 3</td>
+        </tr>
+        <tr>
+            <th>Quantidade</th>
+            <td>200</td>
+            <td>180</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <table border="1">
+        <caption>Colspan</caption>
+        <tr>
+            <th colspan="2">Célula espandida em várias colunas</th>
+        </tr>
+        <tr>
+            <td>Exemplo de Colspan</td>
+            <td>50</td>
+        </tr>
+        <tr>
+            <td>Fevereiro</td>
+            <td>10</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <table border="1">
+        <thead>
+            <Caption>Rowspan</Caption>
+            <tr>
+                <th>Mês</th>
+                <th>Valores</th>
+                <th>Exemplo de Rowspan</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Janeiro</td>
+                <td>30</td>
+                <td rowspan="2">Célula expandida em várias linhas</td>
+            </tr>
+            <tr>
+                <td>Fevereiro</td>
+                <td>15</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">Rodapé de exemplo</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
